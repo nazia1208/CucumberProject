@@ -3,16 +3,38 @@
     "line": 1,
     "elements": [
       {
+        "before": [
+          {
+            "result": {
+              "duration": 810000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
         "line": 10,
         "name": "This scenario is to test login functionality.",
         "description": "",
         "id": "this-feature-is-to-test-the-login-page-scenarios.;this-scenario-is-to-test-login-functionality.;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 124000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 3131470100,
+              "duration": 4317614400,
               "status": "passed"
             },
             "line": 4,
@@ -24,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 274514600,
+              "duration": 422305500,
               "status": "passed"
             },
             "line": 5,
@@ -46,7 +68,7 @@
           },
           {
             "result": {
-              "duration": 120472900,
+              "duration": 142268500,
               "status": "passed"
             },
             "line": 6,
@@ -59,16 +81,38 @@
         ]
       },
       {
+        "before": [
+          {
+            "result": {
+              "duration": 101800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
         "line": 11,
         "name": "This scenario is to test login functionality.",
         "description": "",
         "id": "this-feature-is-to-test-the-login-page-scenarios.;this-scenario-is-to-test-login-functionality.;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 77800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 1890802400,
+              "duration": 2437416200,
               "status": "passed"
             },
             "line": 4,
@@ -80,7 +124,7 @@
           },
           {
             "result": {
-              "duration": 238743500,
+              "duration": 510377600,
               "status": "passed"
             },
             "line": 5,
@@ -102,7 +146,7 @@
           },
           {
             "result": {
-              "duration": 114950300,
+              "duration": 160895400,
               "status": "passed"
             },
             "line": 6,
@@ -134,7 +178,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1682900700,
+              "duration": 2101999700,
               "status": "passed"
             },
             "line": 6,
@@ -147,16 +191,38 @@
         ]
       },
       {
+        "before": [
+          {
+            "result": {
+              "duration": 112800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
         "line": 8,
         "name": "This scenario is to test Login with Valid Credential.",
         "description": "",
         "id": "this-feature-is-to-test-scenarios-of-swagpage.;this-scenario-is-to-test-login-with-valid-credential.",
+        "after": [
+          {
+            "result": {
+              "duration": 107700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 399913600,
+              "duration": 338190700,
               "status": "passed"
             },
             "line": 10,
@@ -168,7 +234,7 @@
           },
           {
             "result": {
-              "duration": 121024000,
+              "duration": 117871200,
               "status": "passed"
             },
             "line": 11,
@@ -189,7 +255,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2049970200,
+              "duration": 2217701400,
               "status": "passed"
             },
             "line": 6,
@@ -202,16 +268,38 @@
         ]
       },
       {
+        "before": [
+          {
+            "result": {
+              "duration": 96600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
         "line": 13,
         "name": "This scenario is to test Login with Invalid Credential.",
         "description": "",
         "id": "this-feature-is-to-test-scenarios-of-swagpage.;this-scenario-is-to-test-login-with-invalid-credential.",
+        "after": [
+          {
+            "result": {
+              "duration": 72500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 232465100,
+              "duration": 227029300,
               "status": "passed"
             },
             "line": 15,
@@ -233,7 +321,7 @@
           },
           {
             "result": {
-              "duration": 105626800,
+              "duration": 109396700,
               "status": "passed"
             },
             "line": 16,

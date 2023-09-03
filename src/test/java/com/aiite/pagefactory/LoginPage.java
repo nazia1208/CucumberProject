@@ -13,11 +13,24 @@ public class LoginPage extends BaseClass{
 	}
 	
 	@FindBy(id="email")
-	public WebElement userName;
+	private WebElement userName;
+	
+	public WebElement getUserName() {
+		return userName;
+	}
 	
 	@FindBy(id="pass")
 	public WebElement passWord;
 	
 	@FindBy(name="login")
 	public WebElement loginBtn;
+	
+	@FindBy(xpath="//a[@rel='async']")
+	public WebElement createAccBtn;
+	
+	@FindBy(xpath="//input[@name='firstname']")
+	public WebElement firstName;
+	
+	@FindBy(name="lastname")
+	public WebElement lastName;
 }

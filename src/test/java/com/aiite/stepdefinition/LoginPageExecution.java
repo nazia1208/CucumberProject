@@ -19,7 +19,7 @@ public class LoginPageExecution {
 	@When("Provide valid {string} and {string} later hit Login")
 	public void provide_valid_and_later_hit_Login(String userName, String password) {
 		LoginPage lp = new LoginPage();
-		lp.userName.sendKeys(userName);
+		lp.getUserName().sendKeys(userName);
 		lp.passWord.sendKeys(password);
 		lp.loginBtn.click();
 		System.out.println("Provided the credentials");

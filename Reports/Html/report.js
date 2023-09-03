@@ -51,6 +51,9 @@ formatter.scenario({
   "description": "",
   "keyword": "Scenario Outline"
 });
+formatter.before({
+  "status": "passed"
+});
 formatter.step({
   "name": "Launch the browser and load facebook Url",
   "keyword": "Given "
@@ -81,10 +84,16 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "This scenario is to test login functionality.",
   "description": "",
   "keyword": "Scenario Outline"
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "Launch the browser and load facebook Url",
@@ -116,6 +125,9 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.uri("C:/Users/Dell/eclipse-workspace/CucumberProject/src/test/resources/Features/SwagPage.feature");
 formatter.feature({
   "name": "This feature is to test scenarios of SwagPage.",
@@ -126,6 +138,9 @@ formatter.background({
   "name": "",
   "description": "",
   "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "Launch the browser and load the Url",
@@ -162,10 +177,16 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.background({
   "name": "",
   "description": "",
   "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "Launch the browser and load the Url",
@@ -200,6 +221,9 @@ formatter.match({
   "location": "SwagPageExecution.validate_the_error_msg_and_close_browser()"
 });
 formatter.result({
+  "status": "passed"
+});
+formatter.after({
   "status": "passed"
 });
 });
